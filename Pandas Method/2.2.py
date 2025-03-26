@@ -4,13 +4,13 @@ import pandas as pd
 
 #Map
 a=pd.Series(['Java','C','C++',np.nan])
-print(a.map({'Java':'Core',"C":'Python'}))
+print(a.map({'Java':'Core',"C":'Python',"C++":'Java'}))
 
 #Standard Deviation (std)
 print("Standard Deviation :",np.std([1,2,3,4,5]))
 
 #Count
-i=pd.Series([2,1,1, np.nan, 3,4,5,5])
+i=pd.Series([2,1,1,np.nan,3,4,5,5])
 print(i.count())
 
 

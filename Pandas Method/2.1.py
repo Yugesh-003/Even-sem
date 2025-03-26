@@ -3,7 +3,7 @@
 import pandas as pd
 
 x=pd.Series([1,2,3],index=['a','b','c'])
-
+print(x)
 #Returns a tuple representing the number of rows and columns in a DataFrame.
 print("Shape:",x.shape)
 
