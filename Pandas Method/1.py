@@ -2,8 +2,7 @@
 #series is like a list in python 
 # The data is represented in rows and columns instead of arrays of comma seperated values. 
 #
-# it has special index values. 
-#That is a one-dimensional array holding data of any type.
+# it prints the index values by default when printing the series
 
 
 
